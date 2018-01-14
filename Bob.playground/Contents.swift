@@ -26,7 +26,7 @@ let result1 = heyBob("Tom-ay-to, tom-aaaah-to.")
 assert("Whatever." == result1, "Test1 Fail \(result1)")
 
 let result2 = heyBob("WATCH OUT!")
-assert("Woah, chill out!" == result2, "Test2 Fail \(result2)")
+assert("Whoa, chill out!" == result2, "Test2 Fail \(result2)")
 
 let result3 = heyBob("Does this cryogenic chamber make me look fat?")
 assert("Sure." == result3, "Test3 Fail \(result3)")
@@ -38,10 +38,10 @@ let result5 = heyBob("It's OK if you don't want to go to the DMV.")
 assert("Whatever." == result5, "Test5 Fail \(result5)")
 
 let result6 = heyBob("WHAT THE HELL WERE YOU THINKING?")
-assert("Woah, chill out!" == result6, "Test6 Fail \(result6)")
+assert("Whoa, chill out!" == result6, "Test6 Fail \(result6)")
 
 let result7 = heyBob("1, 2, 3 GO!")
-assert("Woah, chill out!" == result7, "Test7 Fail \(result7)")
+assert("Whoa, chill out!" == result7, "Test7 Fail \(result7)")
 
 let result8 = heyBob("1, 2, 3.")
 assert("Whatever." == result8, "Test8 Fail \(result8)")
@@ -50,13 +50,13 @@ let result9 = heyBob("4?")
 assert("Sure." == result9, "Test9 Fail \(result9)")
 
 let result10 = heyBob("ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!")
-assert("Woah, chill out!" == result10, "Test10 Fail \(result10)")
+assert("Whoa, chill out!" == result10, "Test10 Fail \(result10)")
 
 let result11 = heyBob("ÄMLÄTS!")
-assert("Woah, chill out!" == result11, "Test11 Fail \(result11)")
+assert("Whoa, chill out!" == result11, "Test11 Fail \(result11)")
 
 let result12 = heyBob("I HATE YOU")
-assert("Woah, chill out!" == result12, "Test12 Fail \(result12)")
+assert("Whoa, chill out!" == result12, "Test12 Fail \(result12)")
 
 let result13 = heyBob("Ending with a ? means a question.")
 assert("Whatever." == result13, "Test13 Fail \(result13)")
@@ -65,9 +65,9 @@ let result14 = heyBob("Wait! Hang on.  Are you going to be OK?")
 assert("Sure." == result14, "Test14 Fail \(result14)")
 
 let result15 = heyBob("")
-assert("Fine, be that way." == result15, "Test15 Fail \(result15)")
+assert("Fine. Be that way!" == result15, "Test15 Fail \(result15)")
 
 let result16 = heyBob("     ")
-assert("Fine, be that way." == result16, "Test16 Fail \(result16)")
+assert("Fine. Be that way!" == result16, "Test16 Fail \(result16)")
 
 print("Well Done")
